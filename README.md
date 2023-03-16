@@ -22,9 +22,9 @@ Static Analysis using mypy tool.
 
 
 
--> In the first file(02_challenge) there is only one error in the file as after checking the whole source file 1 error was detected.
+-> In the first file(02_challenge) there is only one error[Missing positional argument in calling function] in the file as after checking the whole source file 1 error was detected.
 
--> In the 01_challenge, 04_challenge, 05_challenge  there may be more than one error in the files as further error checking has been stopped due to the 1st detected error.
+-> In the 01_challenge, 04_challenge, 05_challenge[Synatax errors] there may be more than one error in the files as further error checking has been stopped due to the 1st detected error.
 
 -> There are also a few files(03_challenge, 06_challenge) that do not contain any errors. 
 
